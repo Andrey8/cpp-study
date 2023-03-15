@@ -1,0 +1,20 @@
+C++ Standard Library Items :
+- STL
+- I/O Streams
+- Smart Pointers
+- Utilities
+- Concurrency
+
+
+
+STL Components :
+- Containers
+	- Vector
+	- Deque
+	- List
+	- Forward List
+	- Set
+- Iterators
+	- Categories
+	- Auxiliary functions
+- Algorithms
