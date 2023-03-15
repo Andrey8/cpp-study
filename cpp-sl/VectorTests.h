@@ -21,6 +21,6 @@ namespace Tests
 	void TestVector_Access_1();
 	void TestVector_IteratorAccess_1();
 	void TestVector_Insert_1();
-
+	void TestVector_Erase_1();
 }
 

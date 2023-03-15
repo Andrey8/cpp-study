@@ -31,9 +31,10 @@ namespace Tests
 //		Tests::TestVector_Resize_1();
 //		Tests::TestVector_Assignments_1();
 //		Tests::TestVector_Swap_1();
-		Tests::TestVector_Access_1();
+//		Tests::TestVector_Access_1();
 //		Tests::TestVector_IteratorAccess_1();
 //		Tests::TestVector_Insert_1();
+		Tests::TestVector_Erase_1();
 	}
 
 	void TestNumericLimits()
@@ -51,8 +52,8 @@ namespace Tests
 
 int main()
 {
-	Tests::TestNumericLimits();
-	//Tests::TestVectors();
+	//Tests::TestNumericLimits();
+	Tests::TestVectors();
 	//Tests::TestLists();
 
 	return 0;
