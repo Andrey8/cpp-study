@@ -6,6 +6,8 @@ OBJ_FILES=ListTests.o DequeTests.o VectorTests.o NumericLimits.o #IOStreamsTests
 
 
 
+all : launcher
+
 launcher : $(OBJ_FILES) Launcher.cpp
 	$(CC) -o $@ $^ $(FLAGS)
 
