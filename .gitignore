@@ -3,3 +3,8 @@
 launcher
 
 !Makefile
+
+cpp-sl.config
+cpp-sl.files
+cpp-sl.include
+cpp-sl.creator
