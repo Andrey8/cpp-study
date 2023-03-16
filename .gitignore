@@ -6,6 +6,6 @@ launcher
 
 cpp-sl.config
 cpp-sl.files
-cpp-sl.include
+cpp-sl.includes
 cpp-sl.creator
 cpp-sl.creator.user
