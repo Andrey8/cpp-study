@@ -2,7 +2,8 @@ CC=g++
 FLAGS=-std=c++11 -Wall
 EXECUTABLES=launcher
 
-OBJ_FILES=ListTests.o DequeTests.o VectorTests.o NumericLimits.o #IOStreamsTests.o
+#IOStreamsTests.o
+OBJ_FILES=ListTests.o DequeTests.o VectorTests.o NumericLimits.o SetTests.o
 
 
 
@@ -12,6 +13,9 @@ launcher : $(OBJ_FILES) Launcher.cpp
 	$(CC) -o $@ $^ $(FLAGS)
 
 
+
+SetTests.o : SetTests.cpp SetTests.h
+	$(CC) -c SetTests.cpp $(FLAGS)
 
 ListTests.o : ListTests.cpp ListTests.h
 	$(CC) -c ListTests.cpp $(FLAGS)

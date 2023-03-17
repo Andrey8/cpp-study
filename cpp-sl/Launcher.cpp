@@ -1,6 +1,7 @@
 #include "ListTests.h"
 #include "DequeTests.h"
 #include "VectorTests.h"
+#include "SetTests.h"
 #include "IOStreamsTests.h"
 #include "NumericLimits.h"
 
@@ -37,6 +38,14 @@ namespace Tests
 		Tests::TestVector_Erase_1();
 	}
 
+	void TestSets()
+	{
+//		Tests::TestSet_Constructors_1();
+//		Tests::TestSet_Find_1();
+//		Tests::TestSet_IteratorAccess_1();
+		Tests::TestSet_Insert_1();
+	}
+
 	void TestNumericLimits()
 	{
 		Tests::Test_NumericLimits_1();
@@ -53,8 +62,9 @@ namespace Tests
 int main()
 {
 	//Tests::TestNumericLimits();
-	Tests::TestVectors();
+	//Tests::TestVectors();
 	//Tests::TestLists();
+	Tests::TestSets();
 
 	return 0;
 }

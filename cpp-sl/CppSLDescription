@@ -4,10 +4,13 @@ C++ Standard Library Items :
 - Smart Pointers
 - Utilities
 - Concurrency
+- Random numbers
 
 
 
 STL Components :
+===========
+
 - Containers
 	- Vector
 	- Deque
@@ -18,3 +21,6 @@ STL Components :
 	- Categories
 	- Auxiliary functions
 - Algorithms
+
+- Set Methods :
+	- 
