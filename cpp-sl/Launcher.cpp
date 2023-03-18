@@ -4,6 +4,7 @@
 #include "SetTests.h"
 #include "IOStreamsTests.h"
 #include "NumericLimits.h"
+#include "Getline.h"
 
 
 
@@ -55,16 +56,22 @@ namespace Tests
 	{
 
 	}
+
+	void TestGetline( char const * filePath )
+	{
+		Tests::TestGetline_1( filePath );
+	}
 }
 
 
 
-int main()
+int main( int argc, char ** argv )
 {
 	//Tests::TestNumericLimits();
 	//Tests::TestVectors();
 	//Tests::TestLists();
-	Tests::TestSets();
+	//Tests::TestSets();
+	Tests::TestGetline( argv[ 1 ] );
 
 	return 0;
 }
