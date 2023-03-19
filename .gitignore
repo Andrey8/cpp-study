@@ -4,8 +4,8 @@ launcher
 
 !Makefile
 
-cpp-sl.config
-cpp-sl.files
-cpp-sl.includes
-cpp-sl.creator
-cpp-sl.creator.user
+*.config
+*.files
+*.includes
+*.creator
+*.creator.user
