@@ -5,6 +5,7 @@
 #include "IOStreamsTests.h"
 #include "NumericLimits.h"
 #include "Getline.h"
+#include "StringTests.h"
 
 
 
@@ -61,6 +62,12 @@ namespace Tests
 	{
 		Tests::TestGetline_1( filePath );
 	}
+	
+	void TestString()
+	{
+//		TestString_FindCharacter_1();
+		TestString_Substr_1();
+	}
 }
 
 
@@ -71,7 +78,8 @@ int main( int argc, char ** argv )
 	//Tests::TestVectors();
 	//Tests::TestLists();
 	//Tests::TestSets();
-	Tests::TestGetline( argv[ 1 ] );
+	//Tests::TestGetline( argv[ 1 ] )
+	Tests::TestString();
 
 	return 0;
 }
