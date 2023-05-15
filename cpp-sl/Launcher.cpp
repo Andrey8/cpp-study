@@ -6,6 +6,7 @@
 #include "NumericLimits.h"
 #include "Getline.h"
 #include "StringTests.h"
+#include "StringStreamTests.h"
 
 
 
@@ -66,7 +67,15 @@ namespace Tests
 	void TestString()
 	{
 //		TestString_FindCharacter_1();
-		TestString_Substr_1();
+//		TestString_Substr_1();
+//		TestString_1();
+		TestString_2();
+	}
+	
+	void TestStringStreams()
+	{
+//		Tests::TestStringStream_1();
+		Tests::TestStringStream_2();
 	}
 }
 
@@ -80,6 +89,7 @@ int main( int argc, char ** argv )
 	//Tests::TestSets();
 	//Tests::TestGetline( argv[ 1 ] )
 	Tests::TestString();
+	//Tests::TestStringStreams();
 
 	return 0;
 }
