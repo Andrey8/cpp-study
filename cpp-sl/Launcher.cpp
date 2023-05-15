@@ -88,8 +88,8 @@ int main( int argc, char ** argv )
 	//Tests::TestLists();
 	//Tests::TestSets();
 	//Tests::TestGetline( argv[ 1 ] )
-	Tests::TestString();
-	//Tests::TestStringStreams();
+	//Tests::TestString();
+	Tests::TestStringStreams();
 
 	return 0;
 }
