@@ -4,7 +4,7 @@ EXECUTABLES=launcher
 
 #IOStreamsTests.o
 OBJ_FILES=ListTests.o DequeTests.o VectorTests.o NumericLimits.o SetTests.o \
-Getline.o StringTests.o
+Getline.o StringTests.o StringStreamTests.o
 
 
 
@@ -14,6 +14,9 @@ launcher : $(OBJ_FILES) Launcher.cpp
 	$(CC) -o $@ $^ $(FLAGS)
 
 
+
+StringStreamTests.o : StringStreamTests.cpp StringStreamTests.h
+	$(CC) -c StringStreamTests.cpp $(FLAGS)
 
 StringTests.o : StringTests.cpp StringTests.h
 	$(CC) -c StringTests.cpp $(FLAGS)
